@@ -3,10 +3,7 @@ phases/phase1_extract.py
 --------------------------
 PHASE 1 : EXTRACT
 
-Responsibility: read the raw CSV and profile it (dtypes, missing
-values, duplicates, shape, summary) BEFORE any cleaning happens.
-This gives us an auditable "before" snapshot so we can prove, later,
-how many rows/values were fixed by the Transform phase.
+
 """
 
 from __future__ import annotations

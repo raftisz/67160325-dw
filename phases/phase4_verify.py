@@ -1,11 +1,8 @@
 """
-phases/phase4_verify.py
+
 ----------------------------
 PHASE 4 : VERIFICATION
 
-Responsibility:
-    Run a fixed set of analytical SQL queries against the finished
-    warehouse to prove the pipeline produced correct, query-able data.
 """
 
 from __future__ import annotations

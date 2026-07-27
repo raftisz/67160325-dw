@@ -1,14 +1,8 @@
 """
-phases/phase2b_transform_fact.py
 ------------------------------------
 PHASE 2B : TRANSFORM (Fact Table)
 
-Responsibility:
-    Map every cleaned transaction row's Natural Keys (email, product
-    name, date) to the Surrogate Keys generated in Phase 2A, then keep
-    only Foreign Keys + Measures - no free text.
 """
-
 from __future__ import annotations
 
 import logging

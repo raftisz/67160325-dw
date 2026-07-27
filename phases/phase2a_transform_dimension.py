@@ -3,18 +3,6 @@ phases/phase2a_transform_dimension.py
 ----------------------------------------
 PHASE 2A : TRANSFORM (Dimension Tables)
 
-Responsibility:
-1. Clean the raw columns (names, emails, product/category casing,
-   dates, currency) into a single `clean_df`.
-2. Build each Dimension table from that clean data:
-      dim_customer, dim_product, dim_date
-3. Assign a surrogate key to every dimension.
-
-Design note - "supports adding new dimensions in the future":
-    Every dimension is built through the same private helper,
-    `_build_dimension()`, which takes a natural-key column and the
-    columns to keep. Adding e.g. `dim_store` later is just one more
-    call to that helper - no new pattern to invent.
 """
 
 from __future__ import annotations

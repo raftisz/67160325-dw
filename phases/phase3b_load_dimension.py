@@ -1,13 +1,8 @@
 """
-phases/phase3b_load_dimension.py
+
 ------------------------------------
 PHASE 3B : LOAD - Dimension Tables
 
-Responsibility:
-    Load every dimension DataFrame into its already-created SQLite
-    table using to_sql(if_exists='append') inside a transaction, so a
-    failure on any one dimension rolls back cleanly instead of leaving
-    the warehouse half-loaded.
 """
 
 from __future__ import annotations

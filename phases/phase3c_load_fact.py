@@ -1,13 +1,7 @@
 """
-phases/phase3c_load_fact.py
 --------------------------------
 PHASE 3C : LOAD - Fact Table
 
-Responsibility:
-    Validate the Fact table BEFORE loading (foreign keys resolve,
-    record count is sane, no duplicate natural keys), then load it.
-    Fact tables carry the referential integrity risk in a warehouse,
-    so this phase is stricter than Phase 3B.
 """
 
 from __future__ import annotations

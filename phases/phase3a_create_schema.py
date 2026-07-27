@@ -1,12 +1,8 @@
 """
-phases/phase3a_create_schema.py
 -----------------------------------
 PHASE 3A : LOAD - Create Warehouse Schema
 
-Responsibility:
-    Create warehouse.db and every table with explicit PRIMARY KEY,
-    FOREIGN KEY, NOT NULL and UNIQUE constraints, so the database
-    itself enforces referential integrity (not just pandas).
+
 """
 
 from __future__ import annotations
