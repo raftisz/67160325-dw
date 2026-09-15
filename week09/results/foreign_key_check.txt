@@ -1,2 +1,0 @@
-PRAGMA foreign_key_check -> no violations (empty result)
-PRAGMA foreign_keys     -> [(0,)]
